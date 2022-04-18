@@ -1,0 +1,62 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "IIOT Streams Consulting"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo2.svg"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo2.svg"
+    desktop_height = "35px"
+    desktop_width = "217px"
+    alt = "IIOT Streams"
+
+  [params.homepage_meta_tags]
+    meta_description = "IIOT Streams Consulting"
+    meta_og_title = "IIOT Streams Consulting"
+    meta_og_type = "website"
+    meta_og_url = "http://iiotstreams.com"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "IIOT Streams Consulting"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@iiotstreams"
+    meta_twitter_creator = "@iiotstreams"
+
+# [[menu.main]]
+#	name = "Services"
+#	url = "/services/"
+#    weight = 1
+
+# [[menu.main]]
+#    name = "Work"
+#    url = "/work/"
+#    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# [[menu.main]]
+#    name = "History"
+#    url = "/history/"
+#    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
